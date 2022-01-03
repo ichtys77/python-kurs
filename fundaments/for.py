@@ -4,5 +4,4 @@ for value in values:
   if value % 2 == 1:
     continue
   else:
-    print('test')
-  print(value)
+    print(value)
