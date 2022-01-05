@@ -1,5 +1,6 @@
-def shopping(section=[]):
+def shopping(section):
   goods = len(section)
+  # print(goods)
   basket = []
   watching_goods = 0
   while watching_goods < goods:
@@ -18,8 +19,8 @@ def cash_registry(*argv):
         print(good, end=', ')
   print('')
 
-shop_shelf1 = ['Apple', 'Orange', 'Banana', 'Kiwi', 'Pear', 'Toy Car']
-shop_shelf2 = ['Cookies', 'Chocolate', 'Icecream', 'Goods']
+shop_shelf1 = ['Apple', 'Orange', 'Banana']
+shop_shelf2 = ['Cookies', 'Chocolate', 'Icecream']
 
 basket1 = shopping(shop_shelf1)
 basket2 = shopping(shop_shelf2)
