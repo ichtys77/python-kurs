@@ -4,9 +4,9 @@ def gather_info():
   return (height, weight)
 
 def calculate_bmi(height, weight):
-  bmi = (weight / height)
+  bmi = (weight / (height ** 2))
   return bmi
 
 height, weight = gather_info()
-bmi = calculate_bmi(weight, height)
-print('Your bmi is: {bmi}')
+bmi = calculate_bmi(height, weight)
+print(f'Your bmi is: {bmi}')

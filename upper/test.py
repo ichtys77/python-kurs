@@ -1,6 +1,5 @@
-name = input('Whats your name? ')
-birthday = input('Whats your birthday? ')
-age = int(input('How old are you? '))
+height = 1.82
+weight = 80
 
-print(f'{name} was born on {birthday}')
-print(f'Half of your life is {age / 2}')
+bmi = (weight / (height ** 2))
+print(f'bmi in function: {bmi}')
